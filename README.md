@@ -28,15 +28,15 @@ Libraries listed in requirements.txt
 
 The project structure is organized as follows:
 
-├── notebooks/
-│   ├── CountVectorizer.ipynb
-├── README.md
-├── requirements.txt
-└── LICENSE
+├── notebooks \
+│─├── CountVectorizer.ipynb \
+├── README.md \
+├── requirements.txt \
+└── LICENSE \
 
 
 # Data
-
+No external data has been used. A sentence corpus has been creted within the CountVectorize.ipynb and used. So all data will be found within the jupyter notebook
 
 # Setup
 
@@ -44,7 +44,7 @@ The project structure is organized as follows:
 git clone https://github.com/yourusername/Custom_TFIDF_Implementation.git
 
 2. Navigate to the project directory:
-cd analyzing-customer-churn
+cd Custom_TFIDF_Implementation
 
 3. Install the required Python packages:
 pip install -r requirements.txt
