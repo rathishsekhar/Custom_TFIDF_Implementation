@@ -33,8 +33,7 @@ Tf-idf can be successfully used for stop-words filtering in various subject fiel
 
 
 # How to compute TF-IDF?
-<font face='georgia'>
-    <h4><strong>How to Compute:</strong></h4>
+
 
 Typically, the tf-idf weight is composed by two terms: the first computes the normalized Term Frequency (TF), aka. the number of times a word appears in a document, divided by the total number of words in that document; the second term is the Inverse Document Frequency (IDF), computed as the logarithm of the number of the documents in the corpus divided by the number of documents where the specific term appears.
 
@@ -68,7 +67,7 @@ Consider a document containing 100 words wherein the word cat appears 3 times. T
     <h2><strong>Building a TFIDF Vectorizer & compare its results with Sklearn:</strong></h2>
 
 <ul>
-    <li> The TFIDF vectorizer will be implemented on a collection of text documents.</li>
+    <li> The TFIDF vectorizer will be implemented on a collection of text documents taken from the sklearn.feature_extraction.text.TfidfVectorizer documentation (refer example).</li>
     <br>
     <li> The results of implementation of TFIDF vectorizer will be compared to that of the sklearns implemenation TFIDF vectorizer.</li>
     <br>

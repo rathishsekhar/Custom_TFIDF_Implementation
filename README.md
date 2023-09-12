@@ -9,10 +9,9 @@
 4. Data
 5. Setup
 6. Usage
-7. Analysis
-8. Results
-9. Contributing
-10. License
+7. Results
+8. Contributing
+9. License
 
 # Overview
 
@@ -27,7 +26,7 @@ Libraries listed in requirements.txt
 # Project Structure
 
 The project structure is organized as follows:
-
+├──data \
 ├── notebooks \
 │─├── CountVectorizer.ipynb \
 ├── README.md \
@@ -55,10 +54,6 @@ Run the data preprocessing script to prepare the data:
 python src/data_preprocessing.py
 Explore the tasks:
 jupyter notebook notebooks/CountVectorizer.ipynb
-
-# Analysis
-
-
 
 # Results
 
