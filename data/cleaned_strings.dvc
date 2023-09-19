@@ -1,0 +1,5 @@
+outs:
+- md5: 34d69db3adb56a18c2e124c48874d6ca
+  size: 58482
+  hash: md5
+  path: cleaned_strings
