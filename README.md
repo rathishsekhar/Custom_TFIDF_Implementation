@@ -1,6 +1,6 @@
 # Custom_TFIDF_Implementation README
 
-Project Name: Custom TFIDF Implementation - Building a cutomary TF-IDF along with matrix feature functionality and compare with Sklearn 
+Project Name: Custom TFIDF Implementation - Building a customary TF-IDF along with matrix feature functionality and compare with Sklearn 
 
 # Table of Contents
 1. Overview
@@ -14,8 +14,6 @@ Project Name: Custom TFIDF Implementation - Building a cutomary TF-IDF along wit
 9. Results
 10. Contributing
 11. License
-
-# Overview
 
 # Overview
 
@@ -41,14 +39,13 @@ The project structure is organized as follows: \
 ├──data \
 ├── notebooks \
 │─├── CountVectorizer.ipynb \
+│─├── README.md
 ├── README.md \
 ├── requirements.txt \
 └── LICENSE \
 
 
 # Data
-
-## Task 2 Data
 
 For Task 2 of this project, we employ a version-controlled approach to manage and track the data. This ensures data integrity and reproducibility throughout the project's lifecycle. We use the Data Version Control (DVC) program to maintain and version our datasets.
 
