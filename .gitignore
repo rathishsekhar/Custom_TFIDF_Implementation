@@ -1,1 +1,3 @@
-
+#Ignoring DS_store files
+.DS_Store
+/notebooks/DS_Store
