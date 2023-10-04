@@ -1,3 +1,9 @@
-.DS_Store
-/data
+# Ignoring DS_Store
+**/.DS_Store
+
+
+# Ignoring .dvc
+*.dvc
+*.gitignore
+data/*
 
