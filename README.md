@@ -14,8 +14,9 @@ Project Name: Custom TFIDF Implementation - Building a customary TF-IDF along wi
 9. Results
 10. Limitations
 11. Ethical Considerations
-12. Contributing
-13. License
+12. Maintainance and Updates
+13. Contributing
+14. License
 
 # Overview
 
@@ -37,14 +38,14 @@ Libraries listed in requirements.txt
 
 # Project Structure
 
-The project structure is organized as follows: \
-├──data \
-├── notebooks \
-│─├── CountVectorizer.ipynb \
+The project structure is organized as follows: 
+├──data/
+├── notebooks/
+│─├── CountVectorizer.ipynb/
 │─├── README.md
-├── README.md \
-├── requirements.txt \
-└── LICENSE \
+├── README.md
+├── requirements.txt
+└── LICENSE
 
 
 # Data
@@ -106,20 +107,20 @@ The project achieved the following results:
 
 # Limitations
 Here are the key limitations so far identified with the project. By providing the limitations, we want to provide valuable insights: 
-1. **Data Quality**: The project relies on randomly generated data for demonstration purposes. Users are therefroe encourated to replace this data with their own to obtain the results. The quality or the results will depend on the input data provided.
+1. **Data Quality**: The project relies on randomly generated data for demonstration purposes. Users are therefroe encouraged to replace this data with their own to obtain the results. The quality or the results will depend on the input data provided.
 
-2. **Scalability**: The code has been optimized for small to medium-sized datasets. When working with significantly larger datasets, users may encounter performnce bottlenects and therefore, scalling the project would require additional code optimization and resource allocation. 
+2. **Scalability**: The code has been optimized for small to medium-sized datasets. When working with significantly larger datasets, users may encounter performance bottlenecks and therefore, scalling the project would require additional code optimization and resource allocation. 
 
 3. **No Guarantees of Futrue Development**: The extent of future development is dependant on the availability of the time. 
 
 4. **Dependency on third party libraires**: The project evaluation is dependant on the sklearn's module. Users should keep up to date and possibly modify the code as these libraries change. 
 
-5. **Lack of official supoprt and official documentation**: This project is a practice project and therefore the documentation may be outdated or sometimes may lack all the information. In this case please feel free to send an email to the above mentioned email(refer data section).  Also, there is no official supprot provided for this project. 
+5. **Lack of official support and official documentation**: This project is a practice project and therefore the documentation may be outdated or sometimes may lack all the information. In this case please feel free to send an email to the above mentioned email(refer data section).  Also, there is no official support provided for this project. 
 # Ethical Considerations
 1. **No user identifiable data** is used in this project.
-2. **Usage**: This project is for educational purposes both for the author and its users to understand various concepts surrounding the TF-IDF vectorization. Hence, no part of the code is to be used for any other purposes without adherance to ethical and legal guidelines of the general software development community. 
+2. **Usage**: This project is for educational purposes both for the author and its users to understand various concepts surrounding the TF-IDF vectorization. Hence, no part of the code is to be used for any other purposes without adherence to ethical and legal guidelines of the general software development community. 
 
-# Maintainance and Updates
+# Maintenance and Updates
 
 This project is a product of continuous learning and improvement. As the author is in a learning stage, updates to the code and documentation will be made whenever time permits. 
 
@@ -141,5 +142,3 @@ Create a pull request.
 # License
 
 This project is licensed under the MIT License. Feel free to use and modify the code as needed.
-
-Feel free to adapt this README template to your specific data science project. It provides a clear structure and information for users and collaborators to understand and contribute to your project effectively
